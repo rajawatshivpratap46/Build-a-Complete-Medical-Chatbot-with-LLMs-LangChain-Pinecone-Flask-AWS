@@ -5,7 +5,7 @@ from typing import List
 from langchain.schema import Document
 
 # Extract text from PDF files
-def load_pdf_files(data):
+def load_pdf_file(data):
     loader = DirectoryLoader(
         data,
         glob="*.pdf",
